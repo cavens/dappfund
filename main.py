@@ -17,7 +17,7 @@ Exchange = Cryptsy.Cryptsy('5df60236f3a63b2db866b8b6cb08fd088f6ed57a', '174e5e53
 
 # BUY HEDGECOIN LOGIC
 
-def portfoliofy(portfolio,hgc_in_circulation,user_address): # Might need some CLEANING up.
+def buy(portfolio,hgc_in_circulation,user_address): # Might need some CLEANING up.
   """Main function orchestrating the buying of hgc"""
   # Did btc arrrive in account
   balance = check_money_in_bank(3)
@@ -149,7 +149,7 @@ def calculate_btc_value_portfolio(coins,portfolio):
 portfolio = {113:155,94:132}
 hgc_in_circulation = 100
 user_address = "11111111111111111111111111"
-portfoliofy(portfolio,hgc_in_circulation,user_address)
+buy(portfolio,hgc_in_circulation,user_address)
 
 
 
