@@ -1,5 +1,5 @@
 """
-This a first implementation which makes abstraction of/simplifies a bunch of stuff.
+This is a first implementation which makes abstraction of/simplifies a bunch of stuff.
 * The app only processes one buy/sell order at a time
 * BTC deposit address = Cryptsy's deposit address
 * ...
